@@ -57,3 +57,27 @@ console.log(Object.entries(tinderUser));   // har key value ko array me bana det
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(tinderUser.hasOwnProperty('isLogged'));
 
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    coursetet:"bala"
+}
+//course.coursetet
+
+const {coursetet: tet} = course  // : tet karke naya naam bhi de sakte he
+
+// console.log(coursetet);
+console.log(tet);
+
+//{
+//  "name": "bala",
+//    "coursename": "js in hindi",  // json format
+//    "price": "free"
+//}
+
+[
+    {},
+    {},
+    {}
+]
