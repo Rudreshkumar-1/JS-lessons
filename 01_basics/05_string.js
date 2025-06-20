@@ -5,7 +5,7 @@ const repoCount = 50
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('bala-ji')
+const gameName = new String('bala-ji') // new nhi lagate to bhi chalta .. isse object ban jaata he typeof karke check karlo
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 
@@ -21,9 +21,9 @@ console.log(newString);
 const anotherString = gameName.slice(-6, 4)
 console.group(anotherString);
 
-const newString1 = "     bala    "
+const newString1 = "    bala    "
 console.log(newString1);
-console.log(newString1.trim());
+console.log(newString1.trim());       // .trimStart() and .trimEnd()
 
 const url = "https://bala.com/bala%20kumar"
 
