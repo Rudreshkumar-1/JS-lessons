@@ -24,7 +24,7 @@ let newDate = new Date()
 console.log(newDate.getMonth()); // 0 se count karna hai, agar normal chahiye to + 1 karna he
 
 newDate.toLocaleString('default', {
-   weekday: "long"
-   
-})
+   weekday: "long" 
+});
+
 
