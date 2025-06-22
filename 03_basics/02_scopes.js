@@ -43,14 +43,15 @@ if (true) {
 
 //**********************INTERRESTING **********************************
 
+
+console.log(addPo(5));
 function addPo(num){
     return num + 1
 }
-
-addPo(5)
 
 const addTwo = function(num){
     return num + 2
 }
 
-addTwo(5)
+addTwo(5) // but agar isko upar karnege to error aaega
+
