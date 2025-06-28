@@ -8,11 +8,17 @@ console.log(myArr[0]);
 // ARRAY METHODS
 
 myArr.push(6)
-myArr.pop()
+console.log(myArr);
+
+myArr.pop()            // array ki last value remove kar deta he 
+console.log(myArr);
+
 
 // myArr.unshift(9).      use karna nhi chahiye
-myArr.shift()
-
+myArr.shift()   // sabhi values ko +1 kar deta he phir last value ko hata deta he 
+console.log(myArr);
+// myArr.unshift(9);     // first value ki jagah given value le aaega 
+//console.log(myArr);
 
 console.log(myArr.includes(9));
 console.log(myArr.indexOf(9));

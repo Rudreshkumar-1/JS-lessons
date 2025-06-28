@@ -12,8 +12,8 @@ const otherNumber = 23.8966
 
 console.log(otherNumber.toPrecision(3));
 
-const hunderds = 1000000
-console.log(hunderds.toLocaleString('en-IN'));
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-IN'));
 
 
 //*************************** MATH ****************************** 
