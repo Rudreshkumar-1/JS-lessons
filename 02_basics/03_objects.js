@@ -8,7 +8,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Bala",
     "full name": " bala kumar", // ise kabhi vo dot wale tarike se access kar hi nhi sakte
-    [mySym]: "mykey1",   // always refer a symbolusing sq brakets
+    [mySym]: "mykey1",   // always refer a symbol using sq brakets
     age: 18,
     location: "Jaipur",
     email: "bala@google.com",
@@ -37,6 +37,8 @@ JsUser.greeting2 = function(){
 console.log(JsUser.greeting);
 console.log(JsUser.greeting());
 console.log(JsUser.greeting2());
+
+// JsUser.greeting()       * ese call kiya jaata hai functions ko
 
 
 

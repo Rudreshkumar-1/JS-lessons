@@ -6,7 +6,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "sammy"
 tinderUser.isLoggedIn = false
 
-//console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
     email: "some@gmail.com",
@@ -37,17 +37,17 @@ const users = [
         email: "luna@gmail.com"
     },
     {
-        id: 1,
-        email: "luna@gmail.com"
+        id: 2,
+        email: "kuna@gmail.com"
     },
     {
-        id: 1,
-        email: "luna@gmail.com"
+        id: 3,
+        email: "juna@gmail.com"
     },
     
 ]
  
-users[1].email
+console.log(users[1].email);
 console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));  // datatype array aaega
@@ -63,7 +63,7 @@ const course = {
     price: "999",
     coursetet:"bala"
 }
-//course.coursetet
+console.log(course.coursetet);
 
 const {coursetet: tet} = course  // : tet karke naya naam bhi de sakte he
 
