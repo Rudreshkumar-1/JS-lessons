@@ -16,15 +16,15 @@ function addTwoNumbers(number1, number2){
     let result = number1 + number2 // directly bhi kar sakte he=> return number1 + number2
     return result //return karne ke baad koi bhi aur console print nhi hoga 
 }
-addTwoNumbers(3, 4)
-addTwoNumbers(3, "4");
-addTwoNumbers(3, null);
+console.log(addTwoNumbers(3, 4));
+console.log(addTwoNumbers(3, "4"));
+console.log(addTwoNumbers(3, null));
 
 const result = addTwoNumbers(3, 5)
 
 console.log("Result: ", result);
 
-function loginUserMessage(username){        // username = 'sam' kardete to if pe baat hi nhi jaati
+function loginUserMessage(username){        // username = same kardete to if pe baat hi nhi jaati
     if(username === undefined){                      // username === undefined ki jagah !username bhi likh sakte the
         console.log("Please enter a username");
         return

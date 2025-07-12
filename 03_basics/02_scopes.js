@@ -25,7 +25,6 @@ function one(){
 
     two()
 }
-
 one()
 
 if (true) {
@@ -35,23 +34,22 @@ if (true) {
         console.log(userName + website);
     }
     //console.log(website);         error
-
 }
-
+// agar return karna he kuch to pehle ise function me band karna padega.
 // console.log(userName);            error
 
 
 //**********************INTERRESTING **********************************
 
 
-console.log(addPo(5));
 function addPo(num){
     return num + 1
 }
+console.log(addPo(5));
 
 const addTwo = function(num){
     return num + 2
 }
 
-addTwo(5) // but agar isko upar karnege to error aaega
+console.log(addTwo(5)); // but agar isko upar karnege to error aaega
 
